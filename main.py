@@ -1,7 +1,16 @@
-print ('hello world')
+# This is a sample Python script.
 
-positive_number = int(input("Enter a positive number: "))
-while positive_number < 0:
-    print("don't play with your destiny...")
-    positive_number = int(input("Enter a positive number: "))
-print("your head just correct", positive_number)
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
